@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -81,4 +82,71 @@ a {
     justify-content: flex-start;
     width: 150px;
     border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+
+/* Empieza segunda seccion */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.two-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 50px;
+}
+
+.two-cont {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 300px;
+    padding-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    max-width: 200px;
+
+}
+
+.two-subt {
+    color: #919296;
+}
+
+.thumbnail {
+    max-width: 200px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+/* Empieza tercera seccion */
+
+.three {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 400px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+    text-align: end;
+    font-weight: 700;
+    font-size: 24px;
 }
