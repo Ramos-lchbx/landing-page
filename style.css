@@ -84,6 +84,7 @@ a {
     border-radius: 10px;
     border: 0;
     outline: 0;
+    cursor: pointer;
 }
 
 /* Empieza segunda seccion */
@@ -150,3 +151,57 @@ a {
     font-weight: 700;
     font-size: 24px;
 }
+
+/* Empieza cuarta seccion */
+
+.modal {
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    gap: 6em;
+    align-items: center;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.mod-sign {
+    color: #E5E7EB;
+    font-size: 17px;
+}
+
+.modal-right {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    border-style: solid;
+    border-color: #E5E7EB;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Aquí empieza quinta seccion */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 24px 0;
+}
+
+
